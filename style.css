@@ -22,11 +22,11 @@ body {
 }
 
 main {
-  margin: calc(50vh - 190px) auto;
+  margin: calc(50vh - 200px) auto;
   width: 86%;
   max-width: 320px;
   min-width: 274px;
-  height: 380px;
+  height: 400px;
   border-radius: 15px;
   background: url(/images/bg-pattern-card.svg) white;
   background-repeat: repeat no-repeat;
@@ -55,16 +55,17 @@ main {
   padding-bottom: 28px;
 }
 .card__user h1 {
-  font-size: 1.8rem;
+  font-size: 2rem;
   color: var(--dark-blue);
 }
 .card__user h1 span {
   font-weight: normal;
   color: var(--dark-grayis-blue);
 }
+
 .card__user p {
   padding-top: 12px;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   letter-spacing: 1px;
   color: var(--dark-grayis-blue);
 }
@@ -79,7 +80,7 @@ main {
   color: var(--dark-blue);
 }
 .card__statistics h3 span {
-  font-size: 1rem;
+  font-size: 1.2rem;
   font-weight: normal;
   letter-spacing: 1.5px;
   display: block;
